@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   const navigate = new useNavigate();
@@ -22,6 +23,8 @@ function LoginPage() {
         <div className="col-md-4">
           <div class="border p-4 rounded">
             <Form>
+              <p class="row justify-content-center align-items-center">LOGIN</p>
+              <hr />
               <Form.Group className="mb-3" controlId="email" value={email}>
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
@@ -37,6 +40,9 @@ function LoginPage() {
               <Button variant="primary" type="submit" onClick={handleSubmit}>
                 Submit
               </Button>
+              <div>
+                <Link to="/register"> Haven't registered yet?</Link>
+              </div>
             </Form>
           </div>
         </div>
