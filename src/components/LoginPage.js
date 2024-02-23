@@ -1,7 +1,9 @@
+import ImageCardPage from "./ImageCardPage";
+
 function LoginPage() {
 	return (
 		<div>
-			Login Page
+			<ImageCardPage />
 		</div>
 	)
 }
