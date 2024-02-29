@@ -4,7 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginPage from "./components/Login/LoginPage";
-import Details from "./components/Details/Details";
+import ImageCardPage from "./components/Details/ImageCardPage";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/details",
-    element: <Details />,
+    element: <ImageCardPage />,
   },
 ]);
 
