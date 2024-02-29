@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import surprisedSvg from '../static/surprised.svg';
-import happySvg from '../static/surprised.svg';
+import happySvg from '../static/happy.svg';
 import angrySvg from '../static/angry.svg';
 import fearSvg from '../static/scared.svg';
 import sleepingSvg from '../static/sleeping.svg';
