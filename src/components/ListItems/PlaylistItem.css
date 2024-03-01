@@ -1,0 +1,20 @@
+.Playlist-Item-Box {
+    display: flex;
+    border-radius: 10px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 4px 1px #afafaf;
+    align-items: center;
+}
+
+.Playlist-Item-Box:hover {
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 1px #afafaf;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.albumArt {
+    width: 40px
+}
